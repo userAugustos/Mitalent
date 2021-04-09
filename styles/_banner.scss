@@ -1,0 +1,93 @@
+section.banner-container{
+  width: 100%;
+  height: 90vh;
+
+  position: relative;
+
+  display: flex;
+
+  .right-top-block{
+    position: absolute;
+    width: 40%;
+    height: 63%;
+
+    background: $soft-blue;
+    right: 0;
+    top: 0;
+  }
+  .center-block{
+    position: absolute;
+    width: 55%;
+    height: 75%;
+
+    background: $lightsky-blue;
+    bottom: 0;
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+
+    @media (min-width: 1080px) {
+      left: 20%;  
+    }
+    @media (max-width: 720px){
+      left: 3%;  
+    }
+  }
+  .container-content{
+    transition: 1s ease-in-out;
+
+    z-index: 1;
+
+    margin: 0 0 0 -8%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 25rem; //working with flex wrap and max-width, because it's just a little bit code, and responsive :)
+    max-height: 50%;
+
+    h1{
+      font-size: 5rem; //font will scale with width
+    }
+  }
+  .white-underline{
+    position: absolute;
+    width: 2.5rem;
+    height: 0.5rem;
+
+    border-radius: 6px;
+    background: white;
+
+    margin: 0 0 0 40%;
+  }
+
+  .profile-button{
+    cursor: pointer;
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 600;
+    background: $soft-blue;
+
+    align-self: flex-end;
+    margin: 5% 0 0 10%;
+
+    p{
+      margin: auto 2rem auto 2rem;
+      white-space: nowrap;
+    }
+
+    button{
+      width: 6rem;
+      height: 4rem;
+
+      border: none;
+    }
+
+  }
+}

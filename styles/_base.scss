@@ -1,0 +1,55 @@
+$soft-blue: #bed9d9;
+$lightsky-blue: #e2e8e8;
+$text-hover-blue: #b3d4d4;
+$dark-image-hover: #2d2f33;
+
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+.hover-strong{
+  &:hover{ 
+    strong{
+      color: $text-hover-blue;
+    }
+  }
+}
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Open-Sans, Helvetica, Sans-Serif;
+}
+li, a{
+  list-style: none;
+  text-decoration: none;
+}
+a{
+  color: inherit;
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+button{
+  cursor: pointer;
+  outline: none;
+}
+small{
+  color: grey;
+}
+
+
+// adicionando para utilizar REM
+@media (max-width: 1080px) {
+  html, body{
+    font-size: 93.75%;
+   }
+  }
+@media (max-width: 720px){
+  html, body{
+    font-size: 85.0%;
+  }
+}

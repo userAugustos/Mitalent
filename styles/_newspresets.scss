@@ -1,0 +1,9 @@
+.latest-news{
+  display: grid;
+
+  grid-template-columns: 2.5fr 1.5fr;
+  grid-template-rows: 15vh 55vh 30vh;
+
+  grid-row-gap: 25px;
+  grid-column-gap: 30px;
+}

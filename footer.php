@@ -1,0 +1,1 @@
+<script src="./node_modules/@fontawesome/fontawesome-free/js/all.min.js"></script>
