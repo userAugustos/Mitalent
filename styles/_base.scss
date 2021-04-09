@@ -19,11 +19,15 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: Open-Sans, Helvetica, Sans-Serif;
+  font-family: 'Kiwi Maru', serif;
 }
 li, a{
   list-style: none;
   text-decoration: none;
+  font-family: 'Kiwi Maru', serif;
+}
+strong{
+  font-family: 'Kiwi Maru', serif;
 }
 a{
   color: inherit;
